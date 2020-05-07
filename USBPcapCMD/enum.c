@@ -799,6 +799,8 @@ EnumerateHubPorts(HANDLE hHubDevice, UCHAR NumPorts, ULONG level,
 
         connectionInfo.ConnectionIndex = index;
 
+        int n = IOCTL_USB_GET_NODE_CONNECTION_INFORMATION;
+
         success = DeviceIoControl(hHubDevice,
                                   IOCTL_USB_GET_NODE_CONNECTION_INFORMATION,
                                   &connectionInfo,

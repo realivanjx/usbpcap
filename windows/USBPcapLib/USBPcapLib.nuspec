@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>USBPcapLib</id>
+        <title>C# wrapper class for USBPcap</title>
+        <version>1.0.3</version>
+        <authors>SeongTae Jeong</authors>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>C# wrapper class for USBPcap</description>
+        <tags>USBPcap, USB, Wireshark</tags>
+        <projectUrl>https://github.com/stjeong/usbpcap</projectUrl>
+        <license type="expression">MIT</license>
+        <dependencies>
+          <group targetFramework="netstandard2.0" />
+        </dependencies>        
+    </metadata>
+</package>

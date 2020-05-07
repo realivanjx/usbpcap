@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "USBPcapCMD", "windows\USBPcapCMD\USBPcapCMD.vcxproj", "{A1160107-F6BF-477B-8035-E89900A8D87B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "csUSBPcapCMD", "windows\csUSBPcapCMD\csUSBPcapCMD.csproj", "{D02121C5-EB97-4145-8CE9-C75000BBE7B2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "USBPcapLib", "windows\USBPcapLib\USBPcapLib.csproj", "{49501E94-C6C7-4A49-9B97-2BAAD57566EE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A1160107-F6BF-477B-8035-E89900A8D87B}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{A1160107-F6BF-477B-8035-E89900A8D87B}.Debug|Any CPU.Build.0 = Debug|x64
+		{A1160107-F6BF-477B-8035-E89900A8D87B}.Debug|x64.ActiveCfg = Debug|x64
+		{A1160107-F6BF-477B-8035-E89900A8D87B}.Debug|x64.Build.0 = Debug|x64
+		{A1160107-F6BF-477B-8035-E89900A8D87B}.Debug|x86.ActiveCfg = Debug|Win32
+		{A1160107-F6BF-477B-8035-E89900A8D87B}.Debug|x86.Build.0 = Debug|Win32
+		{A1160107-F6BF-477B-8035-E89900A8D87B}.Release|Any CPU.ActiveCfg = Release|Win32
+		{A1160107-F6BF-477B-8035-E89900A8D87B}.Release|x64.ActiveCfg = Release|x64
+		{A1160107-F6BF-477B-8035-E89900A8D87B}.Release|x64.Build.0 = Release|x64
+		{A1160107-F6BF-477B-8035-E89900A8D87B}.Release|x86.ActiveCfg = Release|Win32
+		{A1160107-F6BF-477B-8035-E89900A8D87B}.Release|x86.Build.0 = Release|Win32
+		{D02121C5-EB97-4145-8CE9-C75000BBE7B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D02121C5-EB97-4145-8CE9-C75000BBE7B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D02121C5-EB97-4145-8CE9-C75000BBE7B2}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{D02121C5-EB97-4145-8CE9-C75000BBE7B2}.Debug|x64.Build.0 = Debug|Any CPU
+		{D02121C5-EB97-4145-8CE9-C75000BBE7B2}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{D02121C5-EB97-4145-8CE9-C75000BBE7B2}.Debug|x86.Build.0 = Debug|Any CPU
+		{D02121C5-EB97-4145-8CE9-C75000BBE7B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D02121C5-EB97-4145-8CE9-C75000BBE7B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D02121C5-EB97-4145-8CE9-C75000BBE7B2}.Release|x64.ActiveCfg = Release|Any CPU
+		{D02121C5-EB97-4145-8CE9-C75000BBE7B2}.Release|x64.Build.0 = Release|Any CPU
+		{D02121C5-EB97-4145-8CE9-C75000BBE7B2}.Release|x86.ActiveCfg = Release|Any CPU
+		{D02121C5-EB97-4145-8CE9-C75000BBE7B2}.Release|x86.Build.0 = Release|Any CPU
+		{49501E94-C6C7-4A49-9B97-2BAAD57566EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49501E94-C6C7-4A49-9B97-2BAAD57566EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49501E94-C6C7-4A49-9B97-2BAAD57566EE}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{49501E94-C6C7-4A49-9B97-2BAAD57566EE}.Debug|x64.Build.0 = Debug|Any CPU
+		{49501E94-C6C7-4A49-9B97-2BAAD57566EE}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{49501E94-C6C7-4A49-9B97-2BAAD57566EE}.Debug|x86.Build.0 = Debug|Any CPU
+		{49501E94-C6C7-4A49-9B97-2BAAD57566EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49501E94-C6C7-4A49-9B97-2BAAD57566EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49501E94-C6C7-4A49-9B97-2BAAD57566EE}.Release|x64.ActiveCfg = Release|Any CPU
+		{49501E94-C6C7-4A49-9B97-2BAAD57566EE}.Release|x64.Build.0 = Release|Any CPU
+		{49501E94-C6C7-4A49-9B97-2BAAD57566EE}.Release|x86.ActiveCfg = Release|Any CPU
+		{49501E94-C6C7-4A49-9B97-2BAAD57566EE}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E7130F3E-DEE9-4638-BBD0-38FDA1181881}
+	EndGlobalSection
+EndGlobal

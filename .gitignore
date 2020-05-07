@@ -1,0 +1,18 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/usbpcap/v16/ipch/AutoPCH
+/.vs/usbpcap/v16
+/windows/csUSBPcapCMD/bin/Debug/netcoreapp3.1
+/windows/csUSBPcapCMD/obj
+/windows/USBPcapCMD/Debug
+/windows/USBPcapCMD/x64/Debug
+/windows/USBPcapCMD/USBPcapCMD.vcxproj.user
+/x64/Debug
+/.vs/usbpcap/DesignTimeBuild/.dtbcache.v2
+/windows/USBPcapLib/bin
+/windows/USBPcapLib/nuget/root
+/windows/USBPcapLib/nuget_output
+/windows/USBPcapLib/obj
+/Debug
