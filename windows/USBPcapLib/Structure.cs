@@ -89,8 +89,8 @@ namespace USBPcapLib
         internal static IntPtr INVALID_HANDLE_VALUE = new IntPtr(-1);
         internal static uint LOOP_SANITY_LIMIT = 10000;
         internal static uint MAX_DEVICE_ID_LEN = 200;
-        internal static uint DEFAULT_SNAPSHOT_LENGTH = 65535;
-        internal static uint DEFAULT_INTERNAL_KERNEL_BUFFER_SIZE = 1024 * 1024;
+        internal static uint DEFAULT_SNAPSHOT_LENGTH = 65535 * 100;
+        internal static uint DEFAULT_INTERNAL_KERNEL_BUFFER_SIZE = 1024 * 1024 * 100;
 
         internal static int ERROR_IO_PENDING = 997;
         internal static int ERROR_PIPE_CONNECTED = 535;
